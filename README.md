@@ -19,7 +19,7 @@ $ vi newAPP/index.ios.js
 
 
 
-# REDUX
+# 1) REDUX
 
 
 Redux provdes a single state for your entire application so you do not need to pass state information from parent components to child components.   Every component has access to the *store* that contains the current app state.  Redux requires boilerplate to setup, but could be worth it for large apps.
@@ -43,3 +43,25 @@ Redux is a design pattern to manage application state which can be hard to manag
 ./app/actions/action1.js
 ./app/screens/screen1.js
 ```
+
+
+# 2) SCREEN NAVIGATION
+
+### Tab Navigator
+Provides tabs at the bottom and top of the screen.
+
+```js
+coming soon
+```
+
+### Stack Navigator
+Allows navigation of screens like a stack so you can go back (pop from the stack)
+```js
+```
+
+# 3) ICONS
+```js
+coming soon
+```
+
+
