@@ -1,6 +1,6 @@
 # REACT-NATIVE
 
-### Start new project
+### Start new project using `react-native-cli`:
 You will need to instal Xcode before you can run IOS simulator
 
 ```sh
@@ -8,16 +8,21 @@ $ npm install -g react-native-cli
 $ react-native init newAPP 
 $ cd newAPP 
 $ react-native run-ios
-```
 
-After simulator appears, press `Command⌘ + R` and select `Enable Live Reload`
-
-### Start writing app
-```sh
+# stat writing app
 $ vi newAPP/index.ios.js
 ```
+After simulator appears, press `Command⌘ + R` and select `Enable Live Reload`
 
 
+### Start new project using `create-react-native-app` (CRNA):
+```sh
+$ npm i -g create-react-native-app 
+$ create-react-native-app my-project 
+$ cd my-project 
+$ npm start
+```
+CRNA allows you to quickly test the IOS app direclty on your phone using the Expo app (downloadable from App store).  You do not need a IOS Developer Account and XCode. 
 
 # 1) REDUX
 
