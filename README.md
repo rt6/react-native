@@ -24,7 +24,17 @@ $ npm start
 ```
 CRNA allows you to quickly test the IOS app direclty on your phone using the Expo app (downloadable from App store).  You do not need a IOS Developer Account and XCode. 
 
-# 1) REDUX
+
+# 1) Styles
+Component with multiple styles
+```js
+<TouchableHighlight
+  style{[style.button, style.buttonRed]}
+>
+</TouchableHighlight>  
+```
+
+# 2) REDUX
 
 
 Redux provdes a single state for your entire application so you do not need to pass state information from parent components to child components.   Every component has access to the *store* that contains the current app state.  Redux requires boilerplate to setup, but could be worth it for large apps.
@@ -50,7 +60,12 @@ Redux is a design pattern to manage application state which can be hard to manag
 ```
 
 
-# 2) SCREEN NAVIGATION
+# 3) SCREEN NAVIGATION
+
+Use `react-navigation` because it has good documentation and works with Expo.
+```js
+npm i --save react-navigation
+```
 
 ### Tab Navigator
 Provides tabs at the bottom and top of the screen.
