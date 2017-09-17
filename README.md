@@ -29,7 +29,7 @@ CRNA allows you to quickly test the IOS app direclty on your phone using the Exp
 Component with multiple styles
 ```js
 <TouchableHighlight
-  style{[style.button, style.buttonRed]}
+  style={[style.button, style.buttonRed]}
 >
 </TouchableHighlight>  
 ```
